@@ -1,0 +1,114 @@
+nav {
+    background-color: lightgrey;
+    float: right;
+    font-size: 22px;
+    margin-right: 100px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+a:hover {
+    background-color: red;
+}
+
+body {
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), 
+                url("../media/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+} 
+
+p, ul, td, th{
+    /* font-size: 15px; */
+    font-size: 97%;
+    font-family: sans-serif, Arial, Helvetica;
+}
+
+.sideBySide {
+    display: flex; /* sit side-by-side in a row rather than stacking on top of each other. */
+    width: 100%;
+    align-items: stretch; /* forces all items inside the container to be the same height.*/
+    gap: 10px;
+    margin-right: 35px;
+    /* padding: auto; */
+}
+
+.first {
+    gap: 80px;
+}
+
+#crafts, #carpet, #celebrations {
+    max-width: 33%;
+}
+
+.second {
+    gap: 50px;
+}
+
+#folkdance {
+    margin-left: 52px;
+}
+
+#carpet {
+    /* margin-right: 10px; */
+    margin-left: 10px;
+}
+
+#food-video {
+    margin-top: -200px;
+    margin-left: 950px;
+    display: flex;
+    max-height: 200px;
+    border: 1px solid red;
+}
+
+#video-details {
+    margin-left: 64%;
+}
+
+.third {
+    gap: 350px;
+}
+
+.images1, .images2 {
+    margin-top: 10px;
+}
+
+.images1 {
+    margin-left: 10px;
+}
+
+.images2 {
+    margin-left: 450px;
+}
+
+.captions1 {
+    margin-left: 40px;
+}
+
+
+#featured-dish p {
+    margin-top: -125px;
+    margin-left: 300px;
+    font-size: 18px;
+}
+
+@media print {
+    body {
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+  #food-video {
+    float: right;
+    width: 300px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    print-color-adjust: exact;
+    /* -webkit-print-color-adjust: exact; */
+  }
+
+  #video-details {
+    margin-left: 68%;
+    }
+}

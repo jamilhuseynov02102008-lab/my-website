@@ -1,0 +1,95 @@
+#map {
+    float: right;
+    margin: 0 20px 10px 20px;
+}
+
+h1, h2, h3 {
+    font-family: sans-serif, Arial, Helvetica;
+}
+
+body {
+    background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), 
+                url("../media/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+} 
+
+p {
+    /* font-size: 18px; */
+    font-size: 120%;
+    font-family: sans-serif, Arial, Helvetica;
+}
+
+#land {
+    margin: 20px 0 0 365px
+}
+
+#etn_img {
+    float: right;
+    margin: 0 350px 0 0;
+    margin-left: 20px;
+}
+
+nav {
+    background-color: lightgrey;
+    float: right;
+    font-size: 22px;
+    margin-right: 100px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+#facts { 
+    float: right;
+    width: 250px;
+    background-color: #f2f2f2;
+    padding: 9px;
+    margin: 20px 40px 0 20px; 
+    border-radius: 8px;
+}
+
+#flag {
+    margin: 0 0 0 10px;
+}
+
+#emblem {
+    margin: -130px 0 0 150px
+}
+
+a:hover {
+    background-color: red;
+}
+
+#qf {
+    /* font-size: 14px; */
+    font-size: 100%;
+}
+
+.thumbnail {
+  width: 200px;        
+  height: 150px;       
+  object-fit: cover;    
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.thumbnail:hover {
+  transform: scale(1.05); /* Slightly enlarges the image on hover */
+  border-color: #007bff;  /* Changes border color on hover */
+}
+
+#carouselExample {
+  max-width: 300px;
+  margin: 0 auto;
+  float: left;
+  margin-left: 20px;
+}
+
+#carouselExample .carousel-inner img {
+  height: 190px;
+  width: 300px;
+  object-fit: cover;
+}
