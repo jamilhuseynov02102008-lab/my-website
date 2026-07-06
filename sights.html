@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover Azerbaijan</title>
+    <link href = "css/base_sights.css" rel = "stylesheet" type = "text/css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href = "index.html">Home</a> | <a href = "culture.html">Culture</a> | <b>Sights</b>
+        </nav>
+
+        <section id = "fact">
+            <h2>Cool fact: Azerbaijan has the biggest flag in the world!</h2>
+            <article>
+                <h3>Flagpole height:</h3>
+                <p><i>191m</i></p>
+                <h3>Width of flag:</h3>
+                <p><i>30m</i></p>
+                <h3>Length of flag:</h3>
+                <p><i>40m</i></p>
+                <h3>Total area:</h3>
+                <p><i>3200m^2</i></p>
+                <h3>Weight:</h3>
+                <p><i>Over 500kg</i></p>
+            </article>
+            
+            <!-- <img src = "media/flagg.jpg" width = "250" height = "450" alt = "Flagpole"> -->
+            <a href="media/flagg.jpg" target="_blank">
+                <img src="media/flagg.jpg" alt="Flagpole" width = "250" height = "450" class="thumbnail">
+            </a>
+        </section>
+    </header>
+    <main>
+        <div class = "intro">
+            <h1>Discover Azerbaijan Sights</h1>
+            <!-- <img src="media/azsights.jpeg" width = "500" alt = "Azerbaijan sights"> -->
+            <a href="media/azsights.jpeg" target="_blank">
+                <img src="media/azsights_small.jpeg" alt="Azerbaijan sights" width = "500" class="thumbnail">
+            </a>
+            <h1>From ancient temples to modern skylines</h1>
+        </div>
+        <br>
+        <h1>Interesting sights of Azerbaijan:</h1>
+        <div class = "sideBySide">
+            <div>
+                <img src = "media/maidentower.jpg" width = "200" height = "150" alt = "maiden tower">
+                <ul>
+                    <li>Location: Baku</li>
+                    <li>Historical</li>
+                </ul>
+                <p>One of Baku's most iconic landmarks, this<br>mysterious 12th-century
+                tower stands at the edge<br>of the Old City. Its exact original purpose
+                remains<br>unknown, making it one of Azerbaijan's greatest<br>historical puzzles.</p>
+            </div>
+
+            <div>
+                <img src = "media/flametowers.jpg" width = "200" height = "150" alt = "flame towers">
+                <ul>
+                    <li>Location: Baku</li>
+                    <li>Modern</li>
+                </ul>
+                <p>Three soaring skyscrapers that light up<br>Baku's skyline
+                    every night in a stunning LED<br>display resemblingflickering flames.
+                    They<br>have become the symbol of modern Azerbaijan.</p>
+            </div>
+
+            <div>
+                <img src = "media/ateshgah.jpg" width = "200" height = "150" alt = "ateshgah">
+                <ul>
+                    <li>Location: Baku</li>
+                    <li>Relegious</li>
+                </ul>
+                <p>Built around a naturally burning gas vent, this ancient<br>
+                    temple was once a sacred pilgrimage site for Hindu, Sikh,<br>
+                    and Zoroastrian worshippers. A truly one-of-a-kind sight you<br>
+                    won't find anywhere else.</p>
+            </div>
+        </div>
+
+        <div class = "sideBySide">
+            <div>
+                <img src = "media/gobustan.jpg" width = "200" height = "150" alt = "gobustan">
+                <ul>
+                    <li>Location: Gobustan</li>
+                    <li>Nature, Historical</li>
+                </ul>
+                <p>Home to over 6,000 rock carvings dating back<br>40,000 years,
+                    as well as bubbling mud volcanoes.<br>A UNESCO World Heritage Site
+                    that feels like<br>stepping into prehistoric times.</p>
+            </div>
+
+            <div>
+                <img src = "media/sheki_palace.jpg" width = "200" height = "150" alt = "sheki palace">
+                <ul>
+                    <li>Location: Sheki</li>
+                    <li>Historical</li>
+                </ul>
+                <p>A breathtaking 18th-century royal residence<br>famous
+                    for its intricate stained glass windows,<br>detailed frescoes,
+                    and stunning geometric<br>patterns— all built without a single nail.</p>
+            </div>
+
+            <div>
+                <img src = "media/bakuboulevards.jpg" width = "200" height = "150" alt = "baku boulevard">
+                <ul>
+                    <li>Location: Baku</li>
+                    <li>Modern</li>
+                </ul>
+                <p>A long, breezy promenade stretching along the<br>Caspian Sea
+                    shore. Perfect for a casual stroll, it offers<br>beautiful views
+                    of the water and the city's skyline side by side.</p>
+            </div>
+        </div>
+
+        <h1>Any other questions? Feel free to reach us, just fill in this form!</h1>
+        <!-- <form action="https://formspree.io/f/xdawpobl" method="POST"> -->
+        <form action="mailto:jamilhuseynov02102008@gmail.com" method="post" enctype="text/plain">
+            <div class="sideBySide form">
+                    <div>
+                        <label for="name"><strong>Full Name:</strong></label><br>
+                        <input type="text" id="name" name = "full_name" size="60"><br>
+                        <br>
+                        <label for="email"><strong>Email address:</strong></label><br>
+                        <input type="email" size="60" id="email" name = "email" placeholder="example@gmail.com"><br>
+                        <br>
+                        <label for="message"><strong>Your message:</strong></label><br>
+                        <textarea cols = "60" rows = "10" name = "message" placeholder="Enter your message..." id="message"></textarea>
+                    </div>
+
+                    <div>
+                        <p>I'm a:</p>
+                        <input type = "radio" name="who" id = "tourist" value = "1">
+                        <label for="tourist">Tourist</label>
+                        <input type = "radio" name="who" id = "researcher" value = "2">
+                        <label for="researcher">Researcher</label>
+                        <br>
+                        <br>
+                        <br>
+                        <input type = "checkbox" name = "terms" id = "terms" checked>
+		                <label for="terms">I accept the Terms and Contitions of the Website</label>
+                        <br>
+                        <br>
+                        <br>
+                        <input type="submit" value="Submit">
+		                <input type="reset" value = "Reset">
+                    </div>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
